@@ -1,0 +1,47 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image: url("https://media.macphun.com/img/uploads/customer/blog/1541154551/15411554815bdc2a99267047.50976593.jpg");
+    background-size: 100vw auto;
+    margin: 0;
+    height: 100vh;
+}
+
+.site-title,
+.site-subtitle {
+    text-align: center;
+}
+
+.site-title {
+    font-size: 120px;
+    font-weight: 900;
+}
+
+.site-subtitle {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.menu {
+    background-color: black;
+    text-anchor: gray;
+}
+
+a {
+    color: #f4f3f1;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.menu li {
+    list-style: none;
+}
